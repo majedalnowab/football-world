@@ -16,21 +16,51 @@
     <!-- FAVICON LINK -->
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     
-    
+    <!--- TAILWIND CSS LINK --->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <!--- CUSTOM CSS START --->
     <style>
-      
+        * {
+            font-family: 'Aleo', ;
+        }
+        .height{
+            height: 200px;
+        }
     </style>
     <!--- COUSTOM CSS END --->
 
 </head>
 
 <body>
-  
+    <!--- HEADER START --->
+    <header class="bg-blue-600 grid grid-cols-3 pt-6">
+        <div class="pt-8">
+            <div class="absolute mt-24">
+                <img src="images/header-photo.png" alt="">
+            </div>
+        </div>
+        <div class="  flex flex-col justify-center items-center ">
+            <h1 class=" pb-8 font-bold italic text-5xl text-slate-900 ">Your Dream Players
+                <img class="w-60 mr-0 pt-5 ml-auto" src="images/Line Marker.png">
+            </h1>
+
+            <p class="text-white text-center ">The FIFA World Cup, often simply called the World Cup, is an international association football competition contested by the senior men's national teams of the members of the Fédération Internationale de Football Association (FIFA).</p>
+        </div>
+        <div>
+            <div class="pl-12 pt-5">
+                <img src="images/hader-card-pic.png" alt="">
+            </div>
+            <div>
+                <div class="absolute pr-0 pl-96 pt-36 "><img src="images/header-football.png" alt=""></div>
+                <img class="ml-auto  w-40" src="images/Rectangle.png" alt="">
+            </div>
+        </div>
+
+    </header>
+    <!--- HEAEDER END --->
 
 
-    <!--- JS FILE LINK --->
-    <script src="index.js"></script>
 </body>
 </html>
